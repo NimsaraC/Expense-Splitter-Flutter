@@ -1,4 +1,5 @@
 import 'package:expense_splitter/even_result_screen.dart';
+import 'package:expense_splitter/uneven_screen.dart';
 import 'package:expense_splitter/utils/constants/colors.dart';
 import 'package:expense_splitter/utils/constants/currencies.dart';
 import 'package:flutter/material.dart';
@@ -32,11 +33,17 @@ class _MainScreenState extends State<MainScreen> {
     if (key.currentState!.validate()) {
       Navigator.of(context).push(MaterialPageRoute(
         builder: (context) {
-          return EvenResultScreen(
-            amount: double.parse(amountController.text),
-            people: int.parse(peopleController.text),
-            currency: selectedCurrency,
-          );
+          return isEvenly
+              ? EvenResultScreen(
+                  amount: double.parse(amountController.text),
+                  people: int.parse(peopleController.text),
+                  currency: selectedCurrency,
+                )
+              : UnevenScreen(
+                  amount: double.parse(amountController.text),
+                  people: int.parse(peopleController.text),
+                  currency: selectedCurrency,
+                );
         },
       ));
     } else {
