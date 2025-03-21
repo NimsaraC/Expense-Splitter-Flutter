@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      localizationsDelegates: [],
       title: 'Expense Splitter',
       theme: ThemeData(
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
