@@ -7,6 +7,14 @@ Expense Splitter is a Flutter-based mobile application designed to help users sp
 - **Split Expenses**: Split expenses among multiple participants.
 - **User-Friendly Interface**: Simple and intuitive UI for seamless navigation.
 
+## Screenshots
+
+![Splash Screen]([assets/screenshots/Screenshot 2025-03-22 004251.png](https://github.com/NimsaraC/Expense-Splitter-Flutter/blob/main/assets/screenshots/Screenshot%202025-03-22%20004251.png))
+![Home Screen]([assets/screenshots/Screenshot 2025-03-22 004328.png](https://github.com/NimsaraC/Expense-Splitter-Flutter/blob/main/assets/screenshots/Screenshot%202025-03-22%20004328.png))
+([assets/screenshots/Screenshot 2025-03-22 004344.png](https://github.com/NimsaraC/Expense-Splitter-Flutter/blob/main/assets/screenshots/Screenshot%202025-03-22%20004344.png))
+([assets/screenshots/Screenshot 2025-03-22 004420.png](https://github.com/NimsaraC/Expense-Splitter-Flutter/blob/main/assets/screenshots/Screenshot%202025-03-22%20004420.png))
+
+
 ## Getting Started
 
 ### Prerequisites
